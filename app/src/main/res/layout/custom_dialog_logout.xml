@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#B63C49">
+
+        <ImageView
+            android:id="@+id/imageVIewDialogLogOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/iconsignout"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="?attr/backgroundColor">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/msj_cerrar_sesion"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margen_general"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textColor="?attr/textColor"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonCancelDialogLogOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margen_general"
+                android:text="@string/cancelar"
+                android:backgroundTint="?attr/buttonColor"
+                android:textColor="#ffffffff" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonOkDialogLogOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margen_general"
+                android:text="@string/aceptar_cerrar"
+                android:backgroundTint="?attr/buttonColor"
+                android:textColor="#ffffffff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

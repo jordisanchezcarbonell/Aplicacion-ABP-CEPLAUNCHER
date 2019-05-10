@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_personalizada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayoutItemsEntitat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabTextColor="?attr/textColor"
+        android:backgroundTint="?attr/backgroundColor"
+        tools:context=".activities.ActivityTabItemsEntitat">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabItemEntitatInstalaciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_instalaciones"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabItemEntitatEquipos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_equipos"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabItemEntitatActividades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_actividades"/>
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPagerTabItemsEntitat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>
+
+

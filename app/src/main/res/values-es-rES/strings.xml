@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CEP Launcher</string>
+    <string name="contraseña_hint">Contraseña</string>
+    <string name="login_olvidadoContraseña">¿Hás olvidado tu contraseña?</string>
+    <string name="no_cuenta">¿No tienes una cuenta?</string>
+    <string name="txt_IniciarSesion">Iniciar sesión</string>
+    <string name="txt_Registrarse">REGISTRARSE</string>
+    <string name="pass_incorrecta">¡Contraseña incorrecta!</string>
+    <string name="intro_email">¡Introduce tu email!</string>
+    <string name="email_incorrecto">¡Email incorrecto!</string>
+    <string name="mensaje_bienvenida">Bienvenido:&#160;</string>
+    <string name="titulo_activity_tabs_items_entitat">Entidadt&#160;</string>
+    <string name="tab_equipos">Equipos</string>
+    <string name="tab_actividades">Actividades</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="msj_cerrar_sesion">¿Deseas cerrar la sesión?</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar_cerrar">Aceptar</string>
+    <string name="icono_usuario">Usuario</string>
+    <string name="icono_config">Opciones</string>
+    <string name="config_idioma">Idioma</string>
+    <string name="descrip_config_idioma">Cambia el idioma de la aplicación</string>
+    <string name="titulo_show_dialog_idiomas">Elige tu idioma</string>
+    <string name="idioma_cat">Catalán</string>
+    <string name="idioma_esp">Español</string>
+    <string name="idioma_ing">Inglés</string>
+    <string name="descrip_tema_oscuro">Habilitar el tema oscuro para toda la aplicación</string>
+    <string name="config_vincula_cuenta">Vincular cuenta</string>
+    <string name="descrip_vincular_cuenta">Vincular los datos con una cuenta existente</string>
+    <string name="text_snackbar">Pronto podrás vincular tu cuenta</string>
+</resources>

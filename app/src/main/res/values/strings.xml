@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name" translatable="false">CEP Launcher</string>
+
+    <!--STRINGS activity_iniciar_sesion-->
+    <string name="contraseña_hint">Contrasenya</string>
+    <string name="email_hint" translatable="false">Email</string>
+    <string name="txt_IniciarSesion">Iniciar Sessió</string>
+    <string name="txt_Registrarse">REGISTRA\'T</string>
+    <string name="no_cuenta">No tens un compte?</string>
+    <string name="login_olvidadoContraseña">Has oblidat la teva contrasenya?</string>
+    <string name="pass_incorrecta">Contrasenya incorrecte!</string>
+    <string name="intro_email">Introdueix el teu email!</string>
+    <string name="email_incorrecto">¡Email incorrecte!</string>
+    <!--EL CARACTER &#160; SRIVE PARA AÑADIR UN ESPACIO-->
+    <string name="mensaje_bienvenida">Benvingut:&#160;</string>
+
+    <!--STRINGS activity_tab_items_entitat-->
+    <string name="titulo_activity_tabs_items_entitat">Entitat&#160;</string>
+    <string name="tab_instalaciones" translatable="false">Instalac.</string>
+    <string name="tab_equipos">Equips</string>
+    <string name="tab_actividades">Activitats</string>
+
+    <!--STRINGS activity_main_user-->
+    <string name="cerrar_sesion">Tanca la sessió</string>
+
+    <!--STRINGS custom_dialog_logout-->
+    <string name="msj_cerrar_sesion">Desitges tancar la sessió?</string>
+    <string name="cancelar">Cancel·la</string>
+    <string name="aceptar_cerrar">Tanca</string>
+
+    <!--STRINGS iconos_toolbar-->
+    <string name="icono_usuario">Usuari</string>
+    <string name="icono_home" translatable="false">Home</string>
+    <string name="icono_config">Opcions</string>
+
+    <!--STRINGS activity_configuracion-->
+    <string name="config_general" translatable="false">General</string>
+    <string name="config_idioma">Idioma</string>
+    <string name="descrip_config_idioma">Canvia l\'idioma de l\'aplicació</string>
+    <string name="config_tema_oscuro" translatable="false">Dark mode</string>
+    <string name="descrip_tema_oscuro">Habilita el tema fosc per a tota l\'aplicació</string>
+    <string name="config_vincula_cuenta">Vincular compte</string>
+    <string name="descrip_vincular_cuenta">Vincula les dades amb un compte existent</string>
+    <string name="text_snackbar">Aviat podràs vincular el teu compte</string>
+    <string name="titulo_show_dialog_idiomas">Tria el teu idioma</string>
+    <string name="idioma_cat">Català</string>
+    <string name="idioma_esp">Castellà</string>
+    <string name="idioma_ing">Anglès</string>
+
+    <!-- STRINGS fragment_instalacioes -->
+    <string name="transition_string" translatable="false">Hello</string>
+
+</resources>

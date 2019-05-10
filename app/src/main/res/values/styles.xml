@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Day Mode -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">@color/colorBlancoLetra</item>
+        <item name="textColorHint">@color/colorPrimary</item>
+        <item name="buttonColor">@color/colorAccent</item>
+        <item name="textColor">@color/colorPrimary</item>
+        <item name="textColorInputUser">#000000</item>
+        <item name="boxStrokeColor">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+        <!-- transición CardView expand-->
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/colorPrimaryDark</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+    <!-- Modo Noche -->
+    <style name="ModoOscuro" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">#303030</item>
+        <item name="textColorHint">@color/colorBlancoLetra</item>
+        <item name="buttonColor">@color/colorAccent</item>
+        <item name="textColor">@color/colorBlancoLetra</item>
+        <item name="textColorInputUser">@color/colorBlancoLetra</item>
+        <item name="boxStrokeColor">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+
+    </style>
+
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+</resources>
